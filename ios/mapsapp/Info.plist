@@ -2,6 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
+	<!-- 🚨 Keep only the permissions used in your app 🚨 -->
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Necesito tu ubicación para mostrar el mapa</string>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+		<key>YOUR-PURPOSE-KEY</key>
+		<string>Necesito tu ubicación para mostrar el mapa</string>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Necesito tu ubicación para mostrar el mapa</string>
+	<!-- … -->
+
+
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
